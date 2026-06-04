@@ -565,7 +565,7 @@ def main():
                 next_start = pos
         sections[marker] = raw[content_start:next_start].strip()
 
-    rebalance_dates = []
+    rebalance_dates = []    
     asset_columns = []
 
     if 'CONFIG' in sections:
